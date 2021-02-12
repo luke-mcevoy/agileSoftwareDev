@@ -12,20 +12,20 @@ Create a small GEDCOM file to use in testing your program. You may reuse the fil
         - <arguments> is the rest of the line beyond the level and tag.
 
 # Sample Input
-0 NOTE dates after now \
-1 SOUR Family Echo \
-2 WWW http://www.familyecho.com  (Links to an external site.) \
-0 bi00 INDI \
-1 NAME Jimmy /Conners/ \
+0 NOTE dates after now <br/>
+1 SOUR Family Echo <br/>
+2 WWW http://www.familyecho.com  (Links to an external site.) <br/>
+0 bi00 INDI <br/>
+1 NAME Jimmy /Conners/
 
 # Sample Output
---> 0 NOTE dates after now <br />
-<-- 0|NOTE|Y|dates after now 
---> 1 SOUR Family Echo 
-<-- 1|SOUR|N|Family Echo 
---> 2 WWW http://www.familyecho.com (Links to an external site.) (Links to an external site.) 
-<-- 2|WWW|N|http://www.familyecho.com (Links to an external site.) 
---> 0 bi00 INDI 
-<-- 0|INDI|Y|bi00 
---> 1 NAME Jimmy /Conners/ 
+--> 0 NOTE dates after now <br/>
+<-- 0|NOTE|Y|dates after now <br/> 
+--> 1 SOUR Family Echo <br/>
+<-- 1|SOUR|N|Family Echo <br/>
+--> 2 WWW http://www.familyecho.com (Links to an external site.) (Links to an external site.) <br/>
+<-- 2|WWW|N|http://www.familyecho.com (Links to an external site.) <br/>
+--> 0 bi00 INDI <br/>
+<-- 0|INDI|Y|bi00 <br/>
+--> 1 NAME Jimmy /Conners/ <br/> 
 <-- 1|NAME|Y|Jimmy /Conners/
