@@ -15,10 +15,8 @@ def inputCheck(familyTree):
 
         # Set tag, check if tag is of exception ("INDI" or "FAM")
         if (lineArray[2] in exceptionTags):
-            tag = lineArray[2]
             lineArray[1], lineArray[2] = lineArray[2], lineArray[1]
-        else:
-            tag = lineArray[1]
+        tag = lineArray[1]
 
         # Check if current GEDCOM line is valid entry
         valid = 'Y' if (tag in validTags) else 'N'
