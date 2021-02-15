@@ -1,0 +1,111 @@
+0 Luke McEvoy
+0 HEAD
+1 SOUR Family Echo
+2 WWW http://www.familyecho.com/
+1 FILE My Family
+1 DATE 8 FEB 2021
+1 DEST ANSTFILE
+1 GEDC
+2 VERS 5.5.1
+2 FORM LINEAGE-LINKED
+1 SUBM @I1@
+2 NAME Luke McEvoy
+1 SUBN
+1 CHAR UTF-8
+0 @I1@ INDI
+1 NAME Luke /McEvoy/
+2 GIVN Luke
+2 SURN McEvoy
+2 _MARNM McEvoy
+1 SEX M
+1 BIRT
+2 DATE 11 MAR 2000
+1 FAMC @F1@
+0 @I2@ INDI
+1 NAME Suzanne /Manaseri/
+2 GIVN Suzanne
+2 SURN Manaseri
+2 _MARNM McEvoy
+1 SEX F
+1 BIRT
+2 DATE 11 DEC 1967
+1 FAMS @F1@
+1 FAMS @F2@
+1 FAMC @F3@
+0 @I3@ INDI
+1 NAME Matthew /McEvoy/
+2 GIVN Matthew
+2 SURN McEvoy
+2 _MARNM McEvoy
+1 SEX M
+1 BIRT
+2 DATE 22 JUL 1969
+1 FAMS @F1@
+0 @I4@ INDI
+1 NAME Suzanne /Ingrassia/
+2 GIVN Suzanne
+2 SURN Ingrassia
+2 _MARNM Manaseri
+1 SEX F
+1 BIRT
+2 DATE 4 APR 1940
+1 FAMS @F3@
+1 FAMS @F4@
+0 @I5@ INDI
+1 NAME Alfred /Manaseri/
+2 GIVN Alfred
+2 SURN Manaseri
+2 _MARNM Manaseri
+1 SEX M
+1 BIRT
+2 DATE 11 AUG 1928
+1 DEAT Y
+2 DATE 11 JAN 2017
+1 FAMS @F3@
+0 @I6@ INDI
+1 NAME Fred /Monical/
+2 GIVN Fred
+2 SURN Monical
+2 _MARNM Monical
+1 SEX M
+1 BIRT
+2 DATE 4 MAR 1910
+1 FAMS @F4@
+0 @I7@ INDI
+1 NAME Smith /Ettinger/
+2 GIVN Smith
+2 SURN Ettinger
+2 _MARNM Jones
+1 SEX M
+1 BIRT
+2 DATE 2 FEB 1968
+1 FAMS @F2@
+0 @I8@ INDI
+1 NAME Sam /Jones/
+2 GIVN Sam
+2 SURN Jones
+2 _MARNM Jones
+1 SEX F
+1 BIRT
+2 DATE 2 MAR 2000
+1 FAMC @F2@
+0 @F1@ FAM
+1 HUSB @I3@
+1 WIFE @I2@
+1 CHIL @I1@
+1 _CURRENT N
+0 @F2@ FAM
+1 HUSB @I7@
+1 WIFE @I2@
+1 CHIL @I8@
+1 _CURRENT Y
+0 @F3@ FAM
+1 HUSB @I5@
+1 WIFE @I4@
+1 CHIL @I2@
+1 _CURRENT N
+0 @F4@ FAM
+1 HUSB @I6@
+1 WIFE @I4@
+1 _CURRENT Y
+0 TRLR
